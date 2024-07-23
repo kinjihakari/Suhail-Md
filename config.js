@@ -17,15 +17,15 @@ global.blockJids = process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/ProCode47";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Va4K0PZ5a245NkngBA2M";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029Va4K0PZ5a245NkngBA2M";
+global.github = process.env.GITHUB || "https://github.com/SuhailTechInfo/Suhail-Md";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/kinjihakari/restless-gambler/main/ragga.jfif"; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "shdwbyt"
 
 
 global.devs = "2348108144288" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2348081839655,2347085936545,2347033985994,2347063265056,2349077552202";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2348081839655,2347085936545,2347033985994,2347063265056";
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348108144288";
 
 
@@ -73,7 +73,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.3.8",
-  caption: global.caption || "『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ shdwbyt 』", // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption: global.caption || "『 powered by shdwbyt 』", // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
   author: process.env.PACK_AUTHER || "",
   packname: process.env.PACK_NAME || "",
