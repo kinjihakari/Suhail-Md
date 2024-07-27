@@ -25,7 +25,7 @@ global.caption = process.env.CAPTION || global.caption || "shdwbyt"
 
 
 global.devs = "2347070124762" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2348081839655,2347085936545,2347033985994,2347063265056";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2348081839655,2347085936545,2347033985994,2347063265056,2348062312683";
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2347070124762";
 
 
