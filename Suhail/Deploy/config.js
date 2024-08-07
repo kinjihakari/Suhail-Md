@@ -1,5 +1,5 @@
 const fs = require('fs-extra')
-if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname + '/.env' })
+if (fs.existsSy bnc('.env')) require('dotenv').config({ path: __dirname + '/.env' })
 
 
 //═══════[Required Variables]════════\\
@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "shdwbyt"
 
 global.devs = "2347070124762" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2348081839655,2347085936545,2347033985994,2347063265056,2348062312683";
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2347070124762";
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "27774125845";
 
 
 
@@ -49,14 +49,14 @@ global.waPresence = process.env.WAPRESENCE || "null"; // 'unavailable' | 'availa
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,234xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,277xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from = process.env.SAVE_STATUS_FROM || "null,234xxxxxxxx";
-global.read_status_from = process.env.READ_STATUS_FROM || "2347070124762,234xxxxxxxx";
+global.save_status_from = process.env.SAVE_STATUS_FROM || "null,277xxxxxxxx";
+global.read_status_from = process.env.READ_STATUS_FROM || "27774125845,277xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -70,15 +70,15 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "#",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.3.8",
   caption: global.caption || "『 powered by shdwbyt 』", // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
   author: process.env.PACK_AUTHER || "",
   packname: process.env.PACK_NAME || "",
-  botname: process.env.BOT_NAME || "shdw",
-  ownername: process.env.OWNER_NAME || "shdw",
+  botname: process.env.BOT_NAME || "BMW",
+  ownername: process.env.OWNER_NAME || "James",
 
 
   errorChat: process.env.ERROR_CHAT || "",
